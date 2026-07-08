@@ -2,8 +2,12 @@
 From a messy pile of files to a clean, sorted worklist automatically. This tool handles the first-pass sorting that AP teams using Python, OCR, and smart classification rules to get invoices ready for processing with zero manual effort where each file is read, identified, and evaluated for legibility and content type.
 
 HOW TO RUN IT?
-1. cd "/Users/murali/Downloads/TASK SPEC AP INVOICE INTAKE HELPER"
-2. python3 -m streamlit run app.py (FOR MACOS),
+1. First INSTALL these dependancies in windows terminal in one shot:
+   pip install pdfplumber pypdf pillow pytesseract pdf2image
+   and VERIFY them python -c "import pdfplumber, pypdf, pytesseract; from PIL import Image; from     pdf2image import convert_from_path; print('All packages OK')"
+   tesseract --version pdftoppm -v
+3. cd "/Users/murali/Downloads/TASK SPEC AP INVOICE INTAKE HELPER"    (COPY File Location)
+4. python3 -m streamlit run app.py (FOR MACOS),
    streamlit run app.py (FOR WINDOWS)
 
 HOW ARE THE FILES CLASSIFIED:
