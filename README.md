@@ -6,7 +6,7 @@ HOW TO RUN IT?
    pip install pdfplumber pypdf pillow pytesseract pdf2image
    and VERIFY them python -c "import pdfplumber, pypdf, pytesseract; from PIL import Image; from     pdf2image import convert_from_path; print('All packages OK')"
    tesseract --version pdftoppm -v
-3. cd "/Users/murali/Downloads/TASK SPEC AP INVOICE INTAKE HELPER"    (COPY File Location)
+3. cd ".../TASK SPEC AP INVOICE INTAKE HELPER"    (COPY File Location)
 4. python3 -m streamlit run app.py (FOR MACOS),
    streamlit run app.py (FOR WINDOWS)
 
