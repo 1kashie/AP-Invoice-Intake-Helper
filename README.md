@@ -26,7 +26,7 @@ Score 40–60  → Risky zone. Some words readable but too many
                errors to trust extracted fields like invoice
                numbers or amounts.
 
-Score 60–80  → Generally readable. Most words correct.
+Score 60–80  → Generally readable. Most words are correct.
                Occasional errors but fields are likely right.
 
 Score 80–100 → Very clean scan. High confidence. Almost as
